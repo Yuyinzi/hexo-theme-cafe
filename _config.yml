@@ -2,11 +2,11 @@
 menu:
   首页: /
   归档: /archives
-  关于: /about
+# 关于: /about
 rss: /atom.xml
 
 # footer底部显示联系邮箱（在博客配置文件下添加email配置也是一样的效果）
-email: 'youemail@outlook.com'
+email: 'littlemay2015@gmail.com'
 
 # 内容 Content
 excerpt_link: 继续阅读全文 »
@@ -14,13 +14,13 @@ fancybox: true
 
 # 启用social widgets时有效
 # 社交widget文本字体，不填写则不显示title
-social_title: Follow me
+social_title: About me
 # Social links 社交链接
 social:
-  github: https://github.com/giscafer
-  weibo: http://weibo.com/laohoubin
-  zhihu: http://www.zhihu.com/people/giscafer
-  email: 'youemail@outlook.com'
+  github: https://github.com/Yuyinzi
+#  weibo: http://weibo.com/laohoubin
+#  zhihu: http://www.zhihu.com/people/giscafer
+#  email: 'youemail@outlook.com'
 
 # WeChat 微信公众号二维码url
 wechat_url: http://blog.giscafer.com/static/images/qrcode_giscafer.jpg ## 启用wechat widget才会生效
@@ -48,8 +48,8 @@ widgets:
 - tagcloud
 - recent_posts
 - archive
-- friendly_link
-- wechat
+#- friendly_link
+#- wechat
 
 # 提供以下内置组件
 # - post_content      # 文章目录
@@ -83,7 +83,7 @@ tagcloud_color: false
 # 设置enable属性为true即可开启mathjax
 # per_page如果为true表示所有文章都设置支持mathjax，如果为false，则在需要支持mathjax的文章加上mathjax: true
 mathjax:
-  enable: true
+  enable: false
   per_page: false
   cdn: https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
@@ -96,10 +96,9 @@ favicon: /favicon.png
 
 # comments 评论插件
 # 关闭统一为 false
-
 ## 网易云跟帖
 ### 使用说明 http://cafe.giscafer.com/2017/04/14/gentie-test/
-gentie_productKey: e2fb4051c49842688ce669e634bc983f
+gentie_productKey: false
 
 ## 畅言 (不使用请将appid和appkey都设空或者false)
 ### 使用说明：http://changyan.kuaizhan.com/static/help/
@@ -122,7 +121,7 @@ gitment:
 ## disqus
 disqus_shortname: false
 
-google_plus:
-fb_admins:
-fb_app_id:
+google_plus: false
+fb_admins: false
+fb_app_id: false
 
